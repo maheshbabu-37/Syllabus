@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .home-cse{
+            width: 100%;
+        }
+        
+         .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            padding: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        
+        @media (max-width: 700px){
+            .main{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            .sub1{
+            display: grid;
+            grid-template-rows: 1fr;
+            border: none;
+            column-gap: 20px;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+        .fiy{
+            display: flex;
+            border: none;
+            border-radius: 6px;
+            height: 250px;
+            background-color: lightgreen;
+            opacity: 0.9;
+            font-size: 40px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        }
+        @media (min-width:700px){
+        .sub1{
+            display: grid;
+            grid-template-columns: 1fr ;
+            border: none;
+            column-gap: 20px;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            }
+        .fiy{
+            display: flex;
+            border: none;
+            border-radius: 6px;
+            height: 280px;
+            background-color: lightgreen;
+            opacity: 0.9;
+            font-size: 40px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+            }
+        }
+        .sy{
+            display: flex;
+            border: none;
+            border-radius: 6px;
+            height: 280px;
+            background-color: lightgreen;
+            opacity: 0.9;
+            font-size: 40px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .ty{
+            display: flex;
+            border: none;
+            border-radius: 6px;
+            height: 280px;
+            background-color: lightgreen;
+            opacity: 0.9;
+            font-size: 40px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        .foy{
+            display: flex;
+            border: none;
+            border-radius: 6px;
+            height: 280px;
+            background-color: lightgreen;
+            opacity: 0.9;
+            font-size: 40px;
+            color: white;
+            align-items: center;
+            justify-content: center;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .fy-p1{
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img class="home-cse" src="/Syllabus/images/cse.jpg" alt="cse">
+    <a href="/Syllabus/index.html">
+        <p style="margin-top: 10px; margin-bottom: 10px; margin-left: 10px;">Home</p>
+    </a>
+    <hr>
+    <div class="main">
+        <div class="sub1">
+        <a href="/Syllabus/first.html" ><div class="fiy">First<br>Year</div></a>
+            <div>
+                <a href="/Syllabus/first.html" ><p class="fy-p1">First Year</p></a>
+                <p><a>Phy Cycle, Chy Cycle</a>
+                </p>
+                
+            </div>
+        </div>
+        <div class="sub1">
+            <a href="/Syllabus/second.html" ><div class="fiy">Second<br>Year</div></a>
+            <div>
+                <a href="/Syllabus/second.html" ><p class="fy-p1">Second Year</p></a>
+                <p><a>3rd Sem, 4th Sem</a>
+                </p>
+                
+            </div>
+        </div>
+        <div class="sub1">
+            <a href="/Syllabus/third.html" ><div class="fiy">Thrid<br>Year</div></a>
+            <div>
+                <a href="/Syllabus/third.html" ><p class="fy-p1">Thrid Year</p></a>
+                <p><a>5th Sem, 6th Sem</a>
+                </p>
+                
+            </div>
+        </div>
+        <div class="sub1">
+            <a href="www.google.com" ><div class="fiy">Fourth<br>Year</div></a>
+            <div>
+                <a href="www.google.com" ><p class="fy-p1">Fourth Year</p></a>
+                <p><a>7th Sem, 8th Sem</a>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

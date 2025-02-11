@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third Year</title>
+    <style>
+        .head{
+            display: flex;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 20px;
+            column-gap: 20px;
+            row-gap: 20px;
+        }
+        
+        @media (max-width: 700px){
+            .main{
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+            .sub1{
+            display: grid;
+            grid-template-rows: 1fr ;
+            border: none;
+            column-gap: 20px;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            background-color: rgb(245, 245, 245);
+        }
+        
+        }
+        @media (min-width:700px){
+        .sub1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border: none;
+            column-gap: 20px;
+            border-radius: 4px;
+            padding: 10px;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            background-color: rgb(245, 245, 245);
+            }
+        
+        }
+        p{
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+        body{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div style="font-weight: bold; font-size: 40px; display: flex; justify-content: center; background-color: lightgreen; border-bottom: 1px; border-top: 0px; border-left: 0px; border-right: 0px; border-style: solid; border-color: rgb(165, 165, 165);">
+        Third Year
+    </div>
+    
+    <div class="head">
+        <a href="/Syllabus/index.html">
+            <p style="margin-top: 10px; margin-bottom: 5px; margin-left: 10px; font-size: 18px;">Home</p>
+        </a>
+        <a href="/Syllabus/third.html">
+            <p style="margin-top: 10px; margin-bottom: 5px; margin-left: 10px; font-size: 18px;">> Third Year</p>
+        </a>
+    </div>
+    <hr>
+    <div class="main">
+        <div>
+            <p style="font-weight: bold; font-size: 40px; margin-bottom: 20px; padding-left: 5px;"><b>5th Sem</b></p>
+        <div class="sub1">
+            <p><a>Software Engineeringg & Project Management</a></p>
+            <p><a href="https://drive.google.com/file/d/1dLhtyvi8piflQR1nK8ce4UiTVegJWzh7/view?usp=drive_link">Computer Networks</a></p>
+            <p><a href="https://drive.google.com/file/d/1dBaCN5eexJFCH7u1rAOPsVK24DPkuCX3/view?usp=drive_link">Theory of Computation</a></p>
+            <p><a>Web Technology Lab</a></p>
+            <p><a >Artificial Intelligence</a></p>
+            <p><a href="https://drive.google.com/file/d/1dJcpNt9wwG4mJfDpjXqFldwxg3P79oxz/view?usp=drive_link">Research Methodology & IPR.</a></p>
+        </div>
+        </div>
+        <div>
+            <p style="font-weight: bold; font-size: 40px; margin-bottom: 20px; padding-left: 5px;"><b>6th Sem</b></p>
+            <div class="sub1">
+                <p><a>Cloud Computing</a></p>
+                <p><a>Machine Learning</a></p>
+                <p><a>Block Chain Technology</a></p>
+                <p><a href="">Integrated Waste Management for a Smart City</a></p>
+                <p><a >Devops</a></p>
+                <p><a>Indian Knowledge System.</a>
+                </p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>
